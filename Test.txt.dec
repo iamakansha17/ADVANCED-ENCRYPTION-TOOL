@@ -1,0 +1,6 @@
+Advanced Encryption Tool (TASK-4)
+- AES-256-GCM authenticated encryption
+- Password-to-key via PBKDF2-HMAC-SHA256
+- Simple Tkinter GUI + CLI fallback
+- File format (binary):
+    [4 bytes: magic b'AE01'] [16 bytes: salt] [12 bytes: nonce] [ciphertext...]
