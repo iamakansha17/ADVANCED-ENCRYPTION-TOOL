@@ -47,6 +47,7 @@ python advanced_encryption_tool.py dec mypassword file.txt.enc file.txt.dec
 
 #  File format & security notes:
   *  File header contains 4-byte magic (b'AE01') + 16-byte salt + 12-byte nonce + ciphertext.
+    <img width="863" height="139" alt="Image" src="https://github.com/user-attachments/assets/11b8a60d-30f9-4f1a-bb1b-1fa7d6999404" />
   *  AES-GCM provides confidentiality and integrity (so tampering will fail during decryption).
   *  PBKDF2 with 200k iterations is used to slow brute-force (increase iterations if you need higher CPU cost).
   *  Never reuse the same salt+nonce for the same key — code uses random per-file salt & nonce.
