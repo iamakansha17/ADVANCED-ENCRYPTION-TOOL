@@ -16,9 +16,10 @@
 # TASK-4: ADVANCED ENCRYPTION TOOL
 
 This module implements AES-256 (Advanced Encryption Standard) encryption. It ensures data confidentiality by converting plaintext into unreadable ciphertext. The Python script uses the cryptography library to derive strong keys from passwords and secure files.
-  This tool encrypts and decrypts files using AES-256-GCM with password-derived keys.
-  A secure and user-friendly encryption utility designed for penetration testers, cybersecurity researchers, and privacy-focused users.
-   This tool provides AES-256-GCM authenticated encryption, secure password-based key derivation (PBKDF2-HMAC-SHA256), a Tkinter GUI, and a full command-line interface (CLI).
+
+This tool encrypts and decrypts files using AES-256-GCM with password-derived keys.
+A secure and user-friendly encryption utility designed for penetration testers, cybersecurity researchers, and privacy-focused users.
+This tool provides AES-256-GCM authenticated encryption, secure password-based key derivation (PBKDF2-HMAC-SHA256), a Tkinter GUI, and a full command-line interface (CLI).
 
 ## Features
 - AES-256-GCM (authenticated encryption)
